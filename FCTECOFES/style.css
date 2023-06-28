@@ -5,7 +5,9 @@ font-family:'Open Sans',sans-serif;
 font-size:15px;
 letter-spacing:2px;
 }
-img{margin:2px;}
+img{margin:2px;
+  max-width:100%;}
+
 .links, .dt {
 text-align: center;
 margin-top: 14px;
@@ -35,22 +37,95 @@ font-size:19px;
   
 }
 
-.hot{
-  text-align: center;
-margin-top: 14px;
-padding: 20px;
-border: 1px solid #F9B785;
-border-width: 2px;
-width: 290px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-border-radius: 40px;
-font-size:19px;
-  
-  
+
+/*--------------------------------------
+カード型_06
+--------------------------------------*/
+.l-wrapper_06 {
+  margin: 1rem auto;
+ margin-top:1px;
+  width: 95%;
+  text-align:left;
+}
+
+/* .l-wrapper_06:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 7px 34px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+  transition: all .5s;
+}
+*/
+
+.card_06 {
+  background:rgba(240, 248, 255, 0.9) ;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px #cccccc;
+}
+
+.card-img_06 {
+  display:block;
+  margin:auto;
+  border-radius: 5px 5px 0 0;
+  max-height: 200px;
   
 }
+.card-content_06 {
+ padding: 8px 15px 15px;
+}
+.card-content_drink {
+  padding: 8px 3px 3px;
+}
+.card-title_06 {
+  font-size: 1.2em;
+  color: #333;
+  font-weight: 700;
+}
+.card-text_06 {
+  color: rgb(58, 56, 56);
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.2em;
+}
+/*.card-link_06 {
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding: 20px;
+}
+.card-link_06 a {
+  text-decoration: none;
+  color: #4f96f6;
+  margin: 0 10px;
+}
+.card-link_06 a:hover {
+  color: #6bb6ff;
+}
+*/
+
+.card-content_06 p {
+  margin-bottom:0;
+}
+/*CARDS 6*/
+
+
+/*cards scroll*/
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  overflow: auto;
+  margin-top: 0px;
+}
+.card {
+  height: 200px;
+  max-width:100px;
+  background-color: #7effb2;
+  border-radius: 5px;
+  flex: 1 0 56px;
+}
+
+/*cards scroll*/
+
 
 
 
@@ -76,12 +151,17 @@ color: skyblue;
 background: black;
 }
 
+h2{
+   margin-bottom: 0px;}
 
 footer{
 background-color:rgba(24, 21, 21, 0.438);
 height:auto;  
 margin-top:7px;
 margin-bottom:5px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
 }
 .small{font-size: small;
 }
